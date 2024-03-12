@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Registration">
+  <grid id="27dc6" binding="registerPanel" layout-manager="GridLayoutManager" row-count="15" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="663" height="563"/>
+    </constraints>
+    <properties>
+      <background color="-14144006"/>
+      <font name="Calisto MT" size="18" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="7433f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Berlin Sans FB Demi" size="36" style="1"/>
+          <foreground color="-1"/>
+          <text value="REGISTRATION PAGE"/>
+        </properties>
+      </component>
+      <component id="65027" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="43a27" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Patient LastName"/>
+        </properties>
+      </component>
+      <component id="11288" class="javax.swing.JTextField" binding="tflastname">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="a7488" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+          <foreground color="-1"/>
+          <labelFor value="780ad"/>
+          <text value="Patient FirstName"/>
+        </properties>
+      </component>
+      <component id="780ad" class="javax.swing.JTextField" binding="tffirstname">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="e5838" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Patient MiddleName"/>
+        </properties>
+      </component>
+      <component id="7f2da" class="javax.swing.JTextField" binding="tfmiddlename">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="1d96f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Email Address"/>
+        </properties>
+      </component>
+      <component id="5f451" class="javax.swing.JTextField" binding="tfemail">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="3e33f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Phone Number"/>
+        </properties>
+      </component>
+      <component id="101f2" class="javax.swing.JTextField" binding="tfphone">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="f6df3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="State "/>
+        </properties>
+      </component>
+      <component id="e4f34" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Residence Address"/>
+        </properties>
+      </component>
+      <component id="79f14" class="javax.swing.JTextField" binding="tfresidenceaddress">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="9fbb0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="4ddb" class="javax.swing.JPasswordField" binding="pfpassword">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="193e9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Confirm Password"/>
+        </properties>
+      </component>
+      <component id="10452" class="javax.swing.JPasswordField" binding="pfconfirmpassword">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="3e4e2" class="javax.swing.JButton" binding="btnRegister">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="ac4ae" class="javax.swing.JButton" binding="btnCancel">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <component id="26b4" class="javax.swing.JTextField" binding="tfState">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calisto MT" size="18" style="1"/>
+        </properties>
+      </component>
+      <vspacer id="b2252">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="29ca1">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="I18nForm" id="3e33f"/>
+    <suppress inspection="I18nForm" id="f6df3"/>
+    <suppress inspection="I18nForm" id="708f2"/>
+    <suppress inspection="NoLabelFor" id="1bf58"/>
+  </inspectionSuppressions>
+</form>
